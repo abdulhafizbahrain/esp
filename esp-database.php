@@ -9,7 +9,7 @@
   copies or substantial portions of the Software.
 -->
 <?php
-$servername = "188.188.0.50";
+$servername = "localhost";
 
 // REPLACE with your Database name
 $dbname = "esp";
