@@ -25,6 +25,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $value2 = test_input($_POST["value2"]);
         $value3 = test_input($_POST["value3"]);
 
+        echo "$sensor";
+        echo "$location";
+        echo "$value1";
+        echo "$value2";
+        echo "$value3";
+
         // $result = insertReading($sensor, $location, $value1, $value2, $value3);
         // echo $result;
     } else {
